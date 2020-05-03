@@ -7,10 +7,6 @@
     </head>
 
     <body>
-        <div >
-           <img class="head" src="header.png" >
-        </div>
-
 
     <div class="new">
        <div class="lowerleft">
@@ -75,19 +71,21 @@
 
            <div class="noform"> <h1>Let’s get in touch</h1></div>
             
-           <form>
-                <input type="text" name="FirstName" placeholder="First name">
+           <form name="Form1" method="POST">
+               
+                <input type="text" name="FirstName" placeholder="First name"><p1>*</p1>
                 <input type="text" name="LastName" placeholder="Last name">
-                <input type="text" name="Moble" placeholder="Moble No."></br>
-                <input type="email" name="Email" placeholder="Email"></br>
+                <input type="text" name="Moble" placeholder="Moble No."><p2>*</p2></br>
+                <input type="email" name="Email" placeholder="Email"><p3>*</p3></br>
                 <select class="drop" name="drodown" >
                  <option  value="" disabled selected >How can we help you </option> 
                 <option value="teacher" >Enquery related to job</option>
                 <option value="student" >Enquery related to addmission</option>
                 <option value="student" >Other</option>
                 </select>
-                <input id="msge" type="text" name="message" placeholder="Your Message....."></br>  
-               <button class="btn1" >Send</button>
+
+                <input id="msge" type="text" name="message" placeholder="Your Message....."><p4>*</p4></br>  
+               <button class="btn1" type="button" onclick="validateForm()">Send</button>
             </form>
          </div>
 
@@ -106,5 +104,7 @@
     </div>
 
 </div>
+
+<script src="validation.js" ></script> 
     </body>
 </html>

@@ -8,11 +8,12 @@ body{
     background-image: url("back.png");
     background-repeat: no-repeat;
    background-color: azure;
+
 }
 
 .head{
     width: 100%;
-    height:10%;
+    height:9%;
     overflow: hidden;
 }
 
@@ -272,4 +273,8 @@ input[name="r"]{
     margin-left: 100px;
 }
 
-/*  border-radius:55px;*/
+
+p1,p2,p3,p4 {
+    color: red;
+    visibility: hidden;
+}
