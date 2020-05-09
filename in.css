@@ -78,6 +78,14 @@ h1{
     font-family: Georgia;
 }
 
+h7{
+  font-size: 10px;  
+  margin-left: 50px;
+  margin-top: 30px;
+  color: red;
+  visibility: hidden;
+}
+
 size{
     margin-left: 300px;
     margin-top: 150px;
